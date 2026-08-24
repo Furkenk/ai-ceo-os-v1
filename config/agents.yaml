@@ -1,0 +1,31 @@
+version: 1
+ceo:
+  name: Claude
+  role: AI CEO / Orchestrator
+  authority: [plan, prioritize, delegate, review, continue]
+  escalation: [yellow, red, missing_critical_information]
+
+agents:
+  researcher:
+    name: Comet
+    role: Web Research Agent
+    outputs: [findings, sources, confidence, recommendations]
+  engineer:
+    name: Claude Code
+    role: Implementation Agent
+    outputs: [plan, changes, tests, risks]
+  reviewer:
+    name: Codex
+    role: Adversarial QA Agent
+    outputs: [pass, fail, findings, required_fixes]
+  creative:
+    name: Creative Agent
+    role: Visual and Content Agent
+    outputs: [concepts, assets, rationale]
+
+routing:
+  web_research: researcher
+  implementation: engineer
+  code_review: reviewer
+  visual_production: creative
+  final_decision: ceo
