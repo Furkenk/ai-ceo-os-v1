@@ -1,0 +1,37 @@
+{
+  "green": [
+    "research",
+    "analysis",
+    "drafts",
+    "feature_branch_code",
+    "tests",
+    "lint",
+    "documentation",
+    "backlog_updates",
+    "seo_analysis",
+    "competitor_analysis",
+    "reversible_optimization"
+  ],
+  "yellow": [
+    "production_release",
+    "database_migration",
+    "major_ui_change",
+    "external_publish",
+    "seo_url_change",
+    "campaign_configuration",
+    "integration_change"
+  ],
+  "red": [
+    "spend_money",
+    "material_ad_budget_change",
+    "delete_production_data",
+    "destructive_migration",
+    "legal_commitment",
+    "financial_commitment",
+    "credential_change",
+    "security_policy_change",
+    "major_brand_identity_change",
+    "high_reputation_risk_public_statement",
+    "irreversible_production_action"
+  ]
+}
